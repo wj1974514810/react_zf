@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
-
+import ZFSwiper from '../zf-swiper/ZFSwiper';
+import{Button} from "antd-mobile"
 class Search extends Component {
+    componentDidMount(){
+       
+    }
     render() {
         return (
             <div>
-                首页
+                <ZFSwiper>456</ZFSwiper>
+                <Button>123</Button>
             </div>
         );
     }

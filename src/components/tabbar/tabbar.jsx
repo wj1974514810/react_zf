@@ -7,7 +7,7 @@ class App extends Component {
 
   handleClick = (e) => {
     let {tab} = e.currentTarget.dataset;
-    console.log(e);
+    // console.log(e);
     /*
     /   => home 
     search => search

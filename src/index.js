@@ -5,9 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // 严格模式，如果有旧的东西，就会报红
+  // <React.StrictMode>
+  // </React.StrictMode>,
+    <App />,
   document.getElementById('root')
 );
 

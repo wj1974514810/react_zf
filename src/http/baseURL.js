@@ -1,1 +1,1 @@
-export const BASE_URL ="https://api-haoke-web.itheima.net"
+export const BASE_URL =process.env.REACT_APP_BASE_URL

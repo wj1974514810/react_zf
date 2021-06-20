@@ -1,8 +1,9 @@
 // 引入axios
 import axios from 'axios'
+import {BASE_URL} from './baseURL'
 // 创建新的实例
 const instance =axios.create({
-    baseURL:"https://api-haoke-web.itheima.net/",
+    baseURL:BASE_URL,
     timeout:10000
 })
 
